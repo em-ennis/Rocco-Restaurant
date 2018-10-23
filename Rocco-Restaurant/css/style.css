@@ -2,14 +2,30 @@
     height: 100vh;
 }
 
-p, div {
+.text-center {
     text-align: center;
 }
 
-.top-margin{
+.top-margin {
     margin-top: 10%;
 }
 
+.bottom-margin {
+    margin-bottom: 5%;
+}
+
+.hours-bottom {
+    margin-bottom: 25%;
+    flex-basis: auto;
+}
+
+.padding {
+    padding-top: 5%;
+}
+
+.green-bottom-border{
+    border-style: solid;
+}
 
 .color-home {
     background-color:#FFC0AA;
@@ -88,3 +104,4 @@ footer:not(.app-footer) {
         display: none;
     }
 }
+
